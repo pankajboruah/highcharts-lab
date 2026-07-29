@@ -2,7 +2,7 @@ import {
   generateHighResLineSeries,
   generateLineSeries,
   type LineDatasetKey,
-} from '../../shared/dataGenerators'
+} from '../../shared/dataGenerators.js'
 
 export type MockHandlerResult = { status: number; body: unknown }
 

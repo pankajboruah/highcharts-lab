@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { getLineSeries } from '../server/handlers/lineSeries'
+import { getLineSeries } from '../server/handlers/lineSeries.js'
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   const { status, body } = getLineSeries(req.query)

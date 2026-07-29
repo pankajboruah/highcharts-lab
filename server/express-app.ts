@@ -1,9 +1,9 @@
 import express from 'express'
 import cors from 'cors'
-import { getLineSeries } from './handlers/lineSeries'
-import { getSparklineSeries } from './handlers/sparklineSeries'
-import { getColumnSeries } from './handlers/columnSeries'
-import { getCategoryBreakdown } from './handlers/categoryBreakdown'
+import { getLineSeries } from './handlers/lineSeries.js'
+import { getSparklineSeries } from './handlers/sparklineSeries.js'
+import { getColumnSeries } from './handlers/columnSeries.js'
+import { getCategoryBreakdown } from './handlers/categoryBreakdown.js'
 
 /**
  * Local dev Express app. Mounts the same framework-neutral handlers the Vercel

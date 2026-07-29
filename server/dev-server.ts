@@ -1,4 +1,4 @@
-import { createExpressApp } from './express-app'
+import { createExpressApp } from './express-app.js'
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 5174
 

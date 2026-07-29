@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { getCategoryBreakdown } from '../server/handlers/categoryBreakdown'
+import { getCategoryBreakdown } from '../server/handlers/categoryBreakdown.js'
 
 export default function handler(_req: VercelRequest, res: VercelResponse) {
   const { status, body } = getCategoryBreakdown()
