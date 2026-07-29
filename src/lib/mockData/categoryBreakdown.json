@@ -1,0 +1,30 @@
+{
+  "categories": ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
+  "series": [
+    {
+      "id": "compute",
+      "name": "Compute",
+      "data": [3795, 4649, 4558, 4079, 4054, 4779]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "data": [1666, 1370, 1292, 1567, 1337, 1544]
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "data": [815, 888, 923, 911, 995, 876]
+    },
+    {
+      "id": "cache",
+      "name": "Cache",
+      "data": [286, 341, 273, 335, 323, 323]
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "data": [59, 66, 60, 64, 56, 52]
+    }
+  ]
+}
